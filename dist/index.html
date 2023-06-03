@@ -1,0 +1,129 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Getting Started</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section id="navigation-bar">
+      <nav>
+        <div class="left-navbar">
+          <div class="home icon">
+            <a href="#"
+              ><img
+                src="/src/images/home-icon.svg"
+                alt="Home icon"
+                class="svg_img"
+            /></a>
+          </div>
+          <div class="search icon">
+            <img
+              src="/src/images/search-icon.svg"
+              alt="Search icon"
+              class="svg_img"
+            />
+          </div>
+        </div>
+
+        <div class="right-navbar">
+          <div class="add-task icon">
+            <a href="#"
+              ><img
+                src="/src/images/plus-icon.svg"
+                alt="Add new task icon"
+                class="svg_img"
+            /></a>
+          </div>
+          <div class="profile icon">
+            <a href="#">
+              <img
+                src="/src/images/avatar-default-icon.svg"
+                alt="Default avatar Icon"
+                class="svg_img avatar"
+            /></a>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <div class="site-wrapper">
+      <section id="left_menu">
+        <ul>
+          <li id="filter_inbox">
+            <div class="filter_inbox">
+              <a href="#">
+                <div class="box">
+                  <span>
+                    <img
+                      src="/src/images/inbox-icon.svg"
+                      alt=""
+                      class="svg_img icon_filter"
+                    />
+                  </span>
+                  <span id="filter_text">Inbox</span>
+                </div>
+              </a>
+            </div>
+          </li>
+          <li id="filter_today">
+            <a href="">
+              <div class="box">
+                <span>
+                  <img
+                    src="/src/images/today-icon.svg"
+                    alt=""
+                    class="svg_img icon_filter"
+                  />
+                </span>
+                <span id="filter_text">Today</span>
+              </div>
+            </a>
+          </li>
+          <li id="filter_upcoming">
+            <a href="">
+              <div class="box">
+                <span>
+                  <img
+                    src="/src/images/upcoming-icon.svg"
+                    alt=""
+                    class="svg_img icon_filter"
+                  />
+                </span>
+                <span id="filter_text">Upcoming</span>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <section id="todos">
+        <h1>Today</h1>
+        <div class="todos">
+          <div class="todo-task">
+            <div class="todo"><p>Read work emails</p></div>
+            <div class="todo-project"><p>Work</p></div>
+          </div>
+          <hr />
+        </div>
+
+        <div class="todos">
+          <div class="todo-task">
+            <div class="todo"><p>Structure my day</p></div>
+            <div class="todo-project"><p>Daily</p></div>
+          </div>
+          <hr />
+        </div>
+
+        <div class="todos">
+          <div class="todo-task">
+            <div class="todo"><p>Go to gym</p></div>
+            <div class="todo-project"><p>Activities</p></div>
+          </div>
+          <hr />
+        </div>
+      </section>
+
+      <script src="main.js"></script>
+    </div>
+  </body>
+</html>
